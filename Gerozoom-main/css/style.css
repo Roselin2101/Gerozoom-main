@@ -16,6 +16,7 @@ html {
 body {
   font-family: 'League Spartan', sans-serif;
   font-weight: 500;
+  background-color: #6868AC;
 }
 
 .container {
@@ -53,7 +54,7 @@ body {
 
 .header .logo-container {
   align-items: center;
-  background-color: #972472;
+  background-color:#972472;
   display: flex;
   height: 75px;
 }
@@ -100,7 +101,7 @@ body {
 }
 
 .strategy {
-  background: #ffffff;
+  background:#6868AC;
   margin-bottom: 48px;
   padding-bottom: 36px;
 }
@@ -140,6 +141,7 @@ body {
 .strategies-container {
   display: grid;
   grid-gap: 91px;
+  
 }
 
 .strategy-item {
@@ -147,7 +149,8 @@ body {
   display: grid;
   grid-gap: 36px;
   grid-template-columns: auto 128px;
-  position: relative;
+  position:relative ;
+  text-align: Left
 }
 
 .strategy-item .leaf {
